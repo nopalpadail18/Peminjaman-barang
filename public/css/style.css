@@ -18,15 +18,15 @@ nav {
     z-index: 1000;
 }
 
-.container-fluid {
+/* .container-fluid {
     background-color: black;
     opacity: 0.9;
-}
+} */
 
-body, html{
-  background-image: url('/img/sekolah.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
+/* body,
+html {
+    background-image: url("https://smkn3kdi.sch.id/wp-content/uploads/2020/05/7-600x450.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */

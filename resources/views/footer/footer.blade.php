@@ -1,5 +1,5 @@
 {{-- Footer --}}
-<div class="container bg-danger">
+{{-- <div class="container bg-danger">
     <div class="container">
         <div class="row text-center text-white">
             <div class="col-lg-12">
@@ -9,5 +9,5 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 {{-- End Footer --}}

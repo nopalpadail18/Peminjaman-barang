@@ -15,7 +15,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Request::is('sarana dan prasarana') ? 'active' : '' }}" aria-current="page"
-                        href="/sarana dan prasarana">Sarana dan Prasarana</a>
+                        href="/category & Barang">Category & Barang</a>
                 </li>
 
                 @auth

@@ -39,25 +39,31 @@
                     </div>
                 </div>
 
-                <div class="row py-3 text-center text-white">
-                    <div class="col-lg-12 mt-3">
-                        <h3>~Welcome To Website~</h3>
+                <div class="container pt-5 px-2">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="{{ asset('/img/Product-hunt-cuate.svg') }}" alt="" width="500px">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" style="width: 25rem;">
+                                <img src="{{ asset('/img/Product-tour-rafiki.svg') }}" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Peminjaman</h5>
+                                    <p class="card-text">Click Button Untuk Melihat Selengkapnya</p>
+                                    <a href="category & Barang" class="btn btn-outline-primary btn-sm">Category &
+                                        Barang</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <hr class="bg-warning">
-
-                <div class="row text-white text-center d-flex justify-content-center mt-5">
-                    <div class="col-lg-8">
-                        <h1>PEMINJAMAN BARANG SMK NEGERI 3 Kendari</h1>
-                    </div>
-                </div>
-
-                <div class="row py-3 text-center mt-5" data-aos="flip-left" data-aos-duration="2000">
+                {{-- <div class="row py-3 text-center mt-5" data-aos="flip-left" data-aos-duration="2000">
                     <div class="col-lg-12">
-                        <a href="sarana dan prasarana" class="btn btn-outline-primary btn-sm">Category & Barang</a>
+                        <a href="category & Barang" class="btn btn-outline-primary btn-sm">Category & Barang</a>
                     </div>
-                </div><br><br><br><br><br><br>
+                </div><br><br><br><br><br><br> --}}
 
             </div>
         </div>

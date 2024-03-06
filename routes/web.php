@@ -52,7 +52,7 @@ Route::get('/dashboard', function(){
 Route::get('/profil/{user:id}', [ProfilController::class, 'index'])->middleware('auth');
 
 // route untuk masuk di SaranaDanPrasaranaCOntroller
-Route::get('/sarana dan prasarana', [SaranaDanPrasaranaController::class, 'index'])->middleware('auth');
+Route::get('/category & Barang', [SaranaDanPrasaranaController::class, 'index'])->middleware('auth');
 
 // Method resource untuk masuk di BarangController
 Route::resource('/sarana-prasarana', BarangController::class)->middleware('admin');
