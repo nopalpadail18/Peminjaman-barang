@@ -35,13 +35,13 @@ class SaranaDanPrasaranaController extends Controller
     {
         if($request->search){
             return view('SaranaPrasarana.index', [
-                'title' => 'Sarana Dan Prasarana',
+                'title' => 'Inventaris TJKT',
                 'categories' => Category::all(),
                 'barangs' => Barang::where('nama_barang', 'LIKE', '%' . $request->search . '%')->latest()->paginate(10)
             ]);
         }else{
             return view('SaranaPrasarana.index', [
-                'title' => 'Sarana Dan Prasarana',
+                'title' => 'Inventaris TJKT',
                 'categories' => Category::all(),
                 'barangs' => Barang::all()
             ]);

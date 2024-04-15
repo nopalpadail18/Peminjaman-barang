@@ -17,12 +17,12 @@ class BarangController extends Controller
     {
         if($request->search){
             return view('dashboard.barang.index', [
-                'title' => 'Sarana dan Prasarana',
+                'title' => 'Inventaris TJKT',
                 'barangs' => Barang::where('nama_barang', 'LIKE', '%' . $request->search . '%')->latest()->paginate(10) 
             ]);
         }else{
             return view('dashboard.barang.index', [
-                'title' => 'Sarana dan Prasarana',
+                'title' => 'Inventaris TJKT',
                 'barangs' => Barang::latest()->paginate(10)
             ]);
         }
